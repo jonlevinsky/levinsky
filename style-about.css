@@ -171,7 +171,7 @@ header ul li a:hover{
 }
 .sci li a:hover
 {
-  background: #144272;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,215,1) 0%, rgba(20,66,114,1) 0%, rgba(0,57,176,1) 100%);
   transform: translateY(-10px);
   box-shadow: 0 0 50px #144272;
 }
