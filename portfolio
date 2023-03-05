@@ -1,0 +1,113 @@
+<html>
+  <head>
+      <meta charset="UTF-8">
+
+      <title>Jan Levínský</title>
+      <link rel="icon" href="logo.svg">
+      <link rel="stylesheet" href="style-portfolio.css">
+    </head>
+    <body>
+      <section>
+        <div class="circle"></div>
+        <header>
+          <a href="#"><img alt="Main Logo" src="logomain.svg" class="logo"></a>
+          <div class="toggle" onclick="toggleMenu();"></div>
+          <ul class="navigation">
+            <li><a href="./index">Domů</a></li>
+            <li><a href="./about">O Mně</a></li>
+            <li><p>Portfolio</p></li>
+            <li><a href="./contact">Kontaktuj Mě</a></li>
+          </ul>
+        </header>
+        <div class="content">
+          <div class="textBox">
+          </div>
+          <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href="portfolio-photo (1).webp">
+                  <img src="portfolio-photo (1).webp" alt="Sunset over the forest" width="600" height="400">
+                </a>
+                <div class="name">Semafory</div>
+                <div class="desc">f/5.6 | 1/640 sec | 300mm</div>
+              </div> 
+              
+              <div class="gallery">
+                <a target="_blank" href="portfolio-photo (2).webp">
+                  <img src="portfolio-photo (2).webp" alt="Sunset over the forest" width="600" height="400">
+                </a>
+                <div class="name">Auto-Portrét nad přehradou</div>
+                <div class="desc">f/5.6 | 1/640 sec | 300mm</div>
+              </div>
+          </div>  
+          
+          <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href="portfolio-photo (3).webp">
+                  <img src="portfolio-photo (3).webp" alt="Krtek" max-width="600" max-height="400">
+                </a>
+                <div class="name">Objektiv ve sněhu</div>
+                <div class="desc">f/5.6 | 1/640 sec | 300mm</div>
+              </div>
+            
+              <div class="gallery">
+                <a target="_blank" href="portfolio-photo (10).webp">
+                  <img src="portfolio-photo (10).webp" alt="Mačke" width="600" height="400">
+                </a>
+                <div class="name">Dívka na potrubí</div>
+                <div class="desc">f/4 | 1/60 sec | 70mm</div>
+              </div>
+          </div> 
+          
+        <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="portfolio-photo (5).webp">
+                <img src="portfolio-photo (5).webp" alt="Krtek" max-width="600" max-height="400">
+              </a>
+              <div class="name">Mačke. Banner</div>
+              <div class="desc">f/5.6 | 1/640 sec | 300mm</div>
+            </div>
+          
+            <div class="gallery">
+              <a target="_blank" href="portfolio-photo (6).webp">
+                <img src="portfolio-photo (6).webp" alt="Mačke" width="600" height="400">
+              </a>
+              <div class="name">Portrét na horizontu</div>
+              <div class="desc">f/4 | 1/60 sec | 70mm</div>
+            </div>
+        </div> 
+
+        <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="portfolio-photo (7).webp">
+                <img src="portfolio-photo (7).webp" alt="Krtek" max-width="600" max-height="400">
+              </a>
+              <div class="name">Zimní pohled na přehradu</div>
+              <div class="desc">f/5.6 | 1/640 sec | 300mm</div>
+            </div>
+          
+            <div class="gallery">
+              <a target="_blank" href="portfolio-photo (9).webp">
+                <img src="portfolio-photo (9).webp" alt="Mačke" width="600" height="400">
+              </a>
+              <div class="name">Křížák na trámu</div>
+              <div class="desc">f/4 | 1/60 sec | 70mm</div>
+            </div>
+        </div> 
+        
+        <div class="clearfix"></div>
+        <ul class="sci">
+          <li><a target="_blank" href="https://www.instagram.com/jon.levinsky.cr3/"><img alt="Instagram" src="instagram.png"></a></li>
+          <li><a target="_blank" href="#"><img alt="Facebook" src="facebook.png"></a></li>
+          <li><a target="_blank" href="#"><img alt="Youtube" src="youtube.png"></a></li>
+        </ul>
+      </section>
+      <script>
+        function toggleMenu(){
+          var menuToggle = document.querySelector('.toggle');
+          var navigation = document.querySelector('.navigation');
+          menuToggle.classList.toggle('active');
+          navigation.classList.toggle('active');
+        }
+      </script>
+    </body>
+  </html>

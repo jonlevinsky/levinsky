@@ -1,0 +1,48 @@
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>Jan Levínský</title>
+      <link rel="icon" href="logo.svg">
+      <link rel="stylesheet" href="style-about.css">
+    </head>
+    <body>
+      <section>
+        <div class="circle"></div>
+        <header>
+          <a href="#"><img alt="Main Logo" src="logomain.svg" class="logo"></a>
+          <div class="toggle" onclick="toggleMenu();"></div>
+          <ul class="navigation">
+            <li><a href="./index">Domů</a></li>
+            <li><p>O Mně</p></li>
+            <li><a href="./portfolio">Portfolio</a></li>
+            <li><a href="./contact">Kontaktuj Mě</a></li>
+          </ul>
+        </header>
+        <div class="content">
+          <div class="textBox">
+            <h2>Kdo jsem?</h2>
+            <p>Jmenuji se Jan Levínský, ale všichni mi říkají Honza. Jsem mladý a nadšený šestnáctiletý student žijící v Praze, v srdci České republiky. Studuji obor Filmová a televizní tvorba na prestižní škole SPŠT Panská v Praze. Fotografování je mou vášní již od dětství a nyní mám možnost své nadšení a talent plně rozvinout díky škole, kde máme možnost účastnit se fotografických praxí. Mým snem je stát se úspěšným a talentovaným fotografem.</p>
+            <p>Fotografování je pro mě víc než jen koníček, je to způsob, jak se vyjádřit a zachytit svět kolem sebe. Pokaždé, když se podívám do objektivu, vidím něco nového, něco, co jsem nikdy předtím neviděl. Právě tento pocit objevování a kreativity mě udržuje v chodu a inspiruje mě k dalšímu objevování nových stylů a technik. Rád zachycuji krásu přírody, emoce lidí a detaily světa, které často zůstávají bez povšimnutí.</p>
+            <p>Toužím se i nadále učit a rozvíjet jako fotograf. Neustále hledám nové výzvy a příležitosti k rozvoji svých dovedností. Ať už jde o zachycení portrétů, krajin nebo zátiší, snažím se vytvářet smysluplná a krásná umělecká díla, která vyprávějí příběh. Věřím, že fotografie není jen o zachycení toho, co je před objektivem, ale o zachycení podstaty života a okamžiků, na kterých záleží nejvíce.</p>
+            <p>Doufám, že si mé portfolio rádi prohlédnete a že vás moje vášeň pro fotografii bude inspirovat na vaší vlastní tvůrčí cestě. Pokud máte jakékoli dotazy nebo byste chtěli spolupracovat, neváhejte se na mě obrátit. Jsem vždy otevřený novým zkušenostem a příležitostem.<p>
+              <h2>Jakou výbavu používám?</h2>
+              <p>Snímky pořizuji výkonným fotoaparátem Canon 250D a dvěma univerzálními objektivy, které mi pomáhají dosáhnout dokonalých výsledků - objektivem Canon EF 70mm-300mm 1:4-5,6 IS USM a objektivem Canon EF-S 18mm-55mm 1:4-5,6 IS STM. Mým oblíbeným objektivem je však teleobjektiv s ohniskovou vzdáleností 70-300 mm, který mi umožňuje dosáhnout skvělých výsledků v každé situaci. S těmito nástroji mohu vytvářet neuvěřitelně živé a detailní snímky plné emocí a krásy.</p>
+              <p>Fotoaparát Canon 250D a tyto objektivy jsou rozšířením mé tvůrčí vize. Umožňují mi zachytit podstatu života a okamžiky, na kterých mi nejvíce záleží. Rád zkoumám nové techniky a styly a tyto nástroje mi dávají svobodu experimentovat a posouvat hranice mé fotografie. Ať už zachycuji portréty, krajiny nebo zátiší, vím, že mám k dispozici vybavení, které potřebuji k dosažení požadovaných výsledků.</p>              
+          </div>
+        </div>
+        <ul class="sci">
+          <li><a target="_blank" href="https://www.instagram.com/jon.levinsky.cr3/"><img alt="Instagram" src="instagram.png"></a></li>
+          <li><a target="_blank" href="#"><img alt="Facebook" src="facebook.png"></a></li>
+          <li><a target="_blank" href="#"><img alt="Youtube" src="youtube.png"></a></li>
+        </ul>
+      </section>
+      <script>
+        function toggleMenu(){
+          var menuToggle = document.querySelector('.toggle');
+          var navigation = document.querySelector('.navigation');
+          menuToggle.classList.toggle('active');
+          navigation.classList.toggle('active');
+        }
+      </script>
+    </body>
+  </html>

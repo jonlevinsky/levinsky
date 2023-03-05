@@ -1,8 +1,9 @@
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
     <title>Jan Levínský</title>
     <link rel="icon" href="logo.svg">
-    <link rel="stylesheet" href="style-contact.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <section>
@@ -11,19 +12,23 @@
         <a href="#"><img alt="Main Logo" src="logomain.svg" class="logo"></a>
         <div class="toggle" onclick="toggleMenu();"></div>
         <ul class="navigation">
-            <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About Me</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><p>Contact Me</p></li>
+          <li><p>Domů</p></li>
+          <li><a href="./about">O Mně</a></li>
+          <li><a href="./portfolio">Portfolio</a></li>
+          <li><a href="./contact">Kontaktuj Mě</a></li>
         </ul>
       </header>
       <div class="content">
         <div class="textBox">
-            <h2>E-MAIL:</h2>
-                <p>jon.levinsky@gmail.com</p>
-            <h2>Instagram:</h2>
-                <p>@jon.levinsky.cr3</p>
-                <p>@jon.levinsky</p>
+          <h2>Jan <span> Levínský</span></h2>
+            <p>16letý student filmové a televizní tvorby v Praze<p>
+            <p>Nadšený fotograf</p>
+            <p>Specializace na přírodu, portréty a detaily</p>
+            <p>Sdílení mých zkušeností a pohledů mým objektivem.</p>
+          <a href="./portfolio">Chci fotky</a>
+        </div>
+        <div class="imgBox">
+              <div class="swiper-slide"><img alt="Logo" src="logo.svg" class="starbucks"></div>
         </div>
       </div>
       <ul class="sci">
@@ -41,4 +46,4 @@
       }
     </script>
   </body>
-  </html>
+</html>
